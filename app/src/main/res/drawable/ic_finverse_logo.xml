@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="128dp"
+    android:height="128dp"
+    android:viewportWidth="128"
+    android:viewportHeight="128">
+
+    <!-- Planet Outer Enclosing Circle -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:pathData="M64,28 A36,36 0 1,1 32,76" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:pathData="M42,32 A36,36 0 0,1 96,76" />
+
+    <!-- Classical Bank Temple -->
+    <!-- Triangular Roof -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M64,38 L44,52 L84,52 Z" />
+    <!-- Beam under roof -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M43,54 L85,54 L85,57 L43,57 Z" />
+    <!-- Pillars -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M48,59 L54,59 L54,77 L48,77 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M74,59 L80,59 L80,77 L74,77 Z" />
+    <!-- Base -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M42,78 L86,78 L86,82 L42,82 Z" />
+
+    <!-- Orbit Ring Ellipse -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="5.5"
+        android:strokeLineCap="round"
+        android:pathData="M22,68 C20,86 108,86 106,68 C104,50 24,50 22,68 Z" />
+
+    <!-- Satellite Planet Sphere on Orbit Ring -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M97,55 A7,7 0 1,1 97,69 A7,7 0 1,1 97,55 Z" />
+</vector>
